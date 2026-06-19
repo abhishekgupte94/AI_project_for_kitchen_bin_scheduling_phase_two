@@ -1,0 +1,62 @@
+# ==========================================
+# 1. Python & Environment Files
+# ==========================================
+# Virtual environments (keeps massive dependency folders off GitHub)
+venv/
+.venv/
+env/
+
+# Byte-compiled / optimized files (Python's internal cache)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging files
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# ==========================================
+# 2. JetBrains / PyCharm Files
+# ==========================================
+# User-specific plugins, runtime data, and local history
+.idea/
+
+# If you want to share your PyCharm project code styles/run configurations
+# with a team, uncomment the lines below but leave the rest of .idea/ ignored:
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+
+# ==========================================
+# 3. Security & Environment Variables
+# ==========================================
+# Secret keys, database passwords, and API tokens (NEVER commit these)
+.env
+.env.local
+.secret
+credentials.json
+
+# ==========================================
+# 4. Operating System Files
+# ==========================================
+# Mac folder attributes
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
